@@ -160,3 +160,80 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+*.dart.js
+*.js.deps
+*.js.map
+*.jks
+*.keystore
+*.iml
+
+# IntelliJ related
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code related
+.vscode/
+.history/
+
+# macOS related
+.DS_Store
+
+# Windows related
+Thumbs.db
+
+# Linux related
+*.swp
+
+# Android related
+.android/
+*.apk
+*.ap_
+*.aar
+*.keystore
+local.properties
+
+# iOS related
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/.generated/
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/build/
+*.mode1v3
+*.mode2v3
+*.nib/
+*.plist
+*.pbxuser
+*.xccheckout
+*.xcscmblueprint
+xcuserdata
+
+# Web related
+build/web/
+flutter_output
+
+# Tests related
+.coverage
+
+# Dependency folders
+.bazel/
+.deps/
+.idea/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos/
+symlinks/
